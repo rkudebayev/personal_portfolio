@@ -4,4 +4,4 @@ const pressHeart = () => {
     eventTarget.style.color = "red";
 }
 
-eventTarget.onclick = pressHeart()
+eventTarget.addEventListener('click', pressHeart)
