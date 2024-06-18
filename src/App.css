@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, .8);
+  scroll-behavior: smooth;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 900px;
+  height: 100%;
+}
+
+.App hr {
+  color: rgb(0, 91, 150);
+}
+
+
+
+
+
+
+
+
+

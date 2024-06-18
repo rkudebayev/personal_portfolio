@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    background-color: rgb(0, 91, 150);
+}
+
+.social-media {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-media i {
+    color: white
+}
+
+.social-media i:hover {
+    color: black;
+}
+
+.bottom small {
+    color: white;
+}
+
+.bottom i {
+    color: red;
+}

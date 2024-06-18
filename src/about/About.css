@@ -1,0 +1,33 @@
+.about {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 20px 20px;
+}
+
+.text {
+    text-align: justify;
+    padding: 20px 20px;
+    font-family: "Roboto Slab";
+    color: rgb(0, 91, 150);
+}
+
+.text p {
+    line-height: 1.4;
+}
+

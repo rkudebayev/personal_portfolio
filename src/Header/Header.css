@@ -1,0 +1,25 @@
+.App-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Slab";
+    padding: 20px 20px;
+    background-color: rgb(0, 91, 150);
+  }
+
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .list li {
+    margin-left: 10px;
+    padding-left: 0.5rem;
+    color: white;
+  }
+
+  .App-header p {
+    color: white;
+  }
